@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a0a0a" />
+
+  <title>Club Sportiv Extreme București | Fitness & Training</title>
+  <meta name="description" content="Club Sportiv Extreme București – antrenamente fitness, coaching sportiv, forță și condiție fizică. Rezervă o sesiune de probă gratuită astăzi." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Club Sportiv Extreme București | Fitness & Training" />
+  <meta property="og:description" content="Transformă-ți corpul și mintea. Antrenamente de elită în București. Rezervă sesiunea de probă gratuită." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://clubsportivextreme.ro" />
+  <meta property="og:image" content="https://clubsportivextreme.ro/og-image.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Club Sportiv Extreme București" />
+  <meta name="twitter:description" content="Antrenamente fitness, coaching sportiv, forță și condiție fizică. Rezervă sesiunea de probă gratuită." />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsActivityLocation",
+    "name": "Club Sportiv Extreme",
+    "description": "Club sportiv în București oferind antrenamente fitness, coaching sportiv, forță și condiție fizică.",
+    "url": "https://clubsportivextreme.ro",
+    "telephone": "+40700000000",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "București",
+      "addressLocality": "București",
+      "addressCountry": "RO"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "44.4268",
+      "longitude": "26.1025"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "07:00",
+        "closes": "22:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday","Sunday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    ],
+    "priceRange": "$$"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════ -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">
+        <span class="logo-x">X</span>TREME
+      </a>
+      <div class="nav__links">
+        <a href="#services">Servicii</a>
+        <a href="#pricing">Prețuri</a>
+        <a href="#reviews">Recenzii</a>
+        <a href="#location">Locație</a>
+      </div>
+      <a href="tel:+40700000000" class="btn btn--sm btn--accent nav__cta">Sună Acum</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__grid"></div>
+      <div class="hero__glow hero__glow--1"></div>
+      <div class="hero__glow hero__glow--2"></div>
+    </div>
+    <div class="hero__inner">
+      <div class="hero__badge reveal">⚡ București · Est. 2015</div>
+      <h1 class="hero__headline reveal">
+        ANTRENEAZĂ-TE<br/>
+        <span class="text-accent">FĂRĂ LIMITE.</span>
+      </h1>
+      <p class="hero__sub reveal">Forță reală. Rezultate reale. Coaching profesionist.<br/>Transformă-ți corpul în 30 de zile.</p>
+      <div class="hero__ctas reveal">
+        <a href="tel:+40700000000" class="btn btn--accent btn--lg">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          Sună Acum
+        </a>
+        <a href="#booking" class="btn btn--outline btn--lg">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11z"/></svg>
+          Probă Gratuită
+        </a>
+        <a href="https://wa.me/40700000000?text=Salut!%20Vreau%20sa%20rezerv%20o%20sedinta%20de%20proba." class="btn btn--whatsapp btn--lg" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp Coach
+        </a>
+      </div>
+      <div class="hero__stats reveal">
+        <div class="stat">
+          <strong class="counter" data-target="500">0</strong><span>+</span>
+          <small>Membri Activi</small>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <strong class="counter" data-target="8">0</strong><span>+</span>
+          <small>Ani Experiență</small>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <strong class="counter" data-target="15">0</strong><span>+</span>
+          <small>Antrenori Certificați</small>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="hero__scroll" aria-label="Scroll down">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+    </a>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       ABOUT
+  ═══════════════════════════════════════════ -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__content reveal">
+          <span class="label">Despre Noi</span>
+          <h2>Nu e un simplu club.<br/><span class="text-accent">E un sistem.</span></h2>
+          <p>La Club Sportiv Extreme nu vindem abonamente — construim rezultate. Fiecare program este structurat pentru progres real, fiecare antrenor e dedicat performanței tale.</p>
+          <ul class="about__list">
+            <li><span class="check">✓</span> Programe personalizate pe obiective</li>
+            <li><span class="check">✓</span> Antrenori certificați cu experiență</li>
+            <li><span class="check">✓</span> Echipament profesional de top</li>
+            <li><span class="check">✓</span> Comunitate motivantă și susținătoare</li>
+          </ul>
+          <a href="#booking" class="btn btn--accent">Începe Azi →</a>
+        </div>
+        <div class="about__visual reveal">
+          <div class="about__card about__card--1">
+            <div class="about__icon">🏋️</div>
+            <strong>Forță & Condiție</strong>
+            <small>Programe structurate</small>
+          </div>
+          <div class="about__card about__card--2">
+            <div class="about__icon">🥊</div>
+            <strong>Sporturi de Echipă</strong>
+            <small>Antrenamente colective</small>
+          </div>
+          <div class="about__card about__card--3">
+            <div class="about__icon">🧘</div>
+            <strong>Mobilitate & Recuperare</strong>
+            <small>Prevenție accidentări</small>
+          </div>
+          <div class="about__card about__card--4">
+            <div class="about__icon">👤</div>
+            <strong>Coaching Personal</strong>
+            <small>1-on-1 dedicat</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       SERVICES
+  ═══════════════════════════════════════════ -->
+  <section class="services section section--dark" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label">Ce Oferim</span>
+        <h2>Servicii<span class="text-accent"> de Elită</span></h2>
+        <p>Orice obiectiv ai, avem programul potrivit pentru tine.</p>
+      </div>
+      <div class="services__grid">
+        <div class="service-card reveal">
+          <div class="service-card__icon">🏃</div>
+          <h3>Fitness Training</h3>
+          <p>Antrenamente cardio și musculare adaptate nivelului tău, cu progres monitorizat săptămânal.</p>
+          <span class="service-card__tag">Toate nivelele</span>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-card__icon">💪</div>
+          <h3>Forță & Condiție</h3>
+          <p>Programe de powerlifting, hipertrofie și condiție atletică cu tehnici profesionale.</p>
+          <span class="service-card__tag">Intermediar – Avansat</span>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-card__icon">⚽</div>
+          <h3>Sporturi de Echipă</h3>
+          <p>Pregătire fizică specifică fotbal, baschet, volei și alte sporturi colective.</p>
+          <span class="service-card__tag">Grupuri</span>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-card__icon">🧘</div>
+          <h3>Mobilitate & Recuperare</h3>
+          <p>Stretching, terapie prin mișcare, prevenție accidentări și refacere post-antrenament.</p>
+          <span class="service-card__tag">Toate nivelele</span>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-card__icon">🎯</div>
+          <h3>Coaching Personal</h3>
+          <p>Atenție 1-on-1 completă. Planuri de nutriție, antrenament și monitorizare continuă.</p>
+          <span class="service-card__tag">Premium</span>
+        </div>
+        <div class="service-card service-card--cta reveal">
+          <div class="service-card__icon">⚡</div>
+          <h3>Nu știi cu ce să începi?</h3>
+          <p>Vino la o sesiune de probă gratuită și îți vom recomanda programul ideal.</p>
+          <a href="#booking" class="btn btn--accent btn--sm">Rezervă Proba</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       CONVERSION SECTION
+  ═══════════════════════════════════════════ -->
+  <section class="conversion section" id="join">
+    <div class="conversion__bg">
+      <div class="conversion__glow"></div>
+    </div>
+    <div class="container">
+      <div class="conversion__inner reveal">
+        <span class="label">Acționează Acum</span>
+        <h2>Prima sesiune e<br/><span class="text-accent">100% gratuită.</span></h2>
+        <p>Fără angajamente. Fără presiune. Vino, antrenează-te, și dacă nu-ți place — pleci fără nicio obligație.</p>
+        <div class="conversion__ctas">
+          <a href="tel:+40700000000" class="btn btn--accent btn--lg">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            Sună: 0700 000 000
+          </a>
+          <a href="https://wa.me/40700000000?text=Salut!%20Vreau%20sa%20rezerv%20o%20sedinta%20de%20proba%20gratuita." class="btn btn--whatsapp btn--lg" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp Acum
+          </a>
+          <a href="#booking" class="btn btn--outline btn--lg">Rezervă Online</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       PRICING
+  ═══════════════════════════════════════════ -->
+  <section class="pricing section section--dark" id="pricing">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label">Prețuri</span>
+        <h2>Simplu &<span class="text-accent"> Transparent</span></h2>
+        <p>Alege planul potrivit obiectivelor tale.</p>
+      </div>
+      <div class="pricing__grid">
+        <div class="pricing-card reveal">
+          <div class="pricing-card__badge">Start</div>
+          <div class="pricing-card__price">
+            <span class="price-free">GRATUIT</span>
+          </div>
+          <h3>Sesiune de Probă</h3>
+          <ul>
+            <li>✓ 1 antrenament complet</li>
+            <li>✓ Evaluare fizică</li>
+            <li>✓ Consultanță cu antrenorul</li>
+            <li>✓ Fără angajament</li>
+          </ul>
+          <a href="#booking" class="btn btn--outline btn--full">Rezervă Acum</a>
+        </div>
+        <div class="pricing-card pricing-card--featured reveal">
+          <div class="pricing-card__badge pricing-card__badge--accent">Popular</div>
+          <div class="pricing-card__price">
+            <span>de la</span>
+            <strong>150</strong>
+            <span>RON/lună</span>
+          </div>
+          <h3>Abonament Lunar</h3>
+          <ul>
+            <li>✓ Acces nelimitat la sală</li>
+            <li>✓ Toate clasele de grup</li>
+            <li>✓ Consultanță nutrițională</li>
+            <li>✓ Monitorizare progres</li>
+          </ul>
+          <a href="tel:+40700000000" class="btn btn--accent btn--full">Sună Pentru Detalii</a>
+        </div>
+        <div class="pricing-card reveal">
+          <div class="pricing-card__badge">Premium</div>
+          <div class="pricing-card__price">
+            <span>de la</span>
+            <strong>80</strong>
+            <span>RON/sesiune</span>
+          </div>
+          <h3>Antrenament Personal</h3>
+          <ul>
+            <li>✓ Program 100% personalizat</li>
+            <li>✓ Antrenor dedicat</li>
+            <li>✓ Plan de nutriție inclus</li>
+            <li>✓ Rezultate garantate</li>
+          </ul>
+          <a href="https://wa.me/40700000000?text=Vreau%20informatii%20despre%20antrenament%20personal." class="btn btn--outline btn--full" target="_blank" rel="noopener">Întreabă pe WhatsApp</a>
+        </div>
+      </div>
+      <p class="pricing__note reveal">* Prețurile exacte pot varia în funcție de pachet și durată. Contactează-ne pentru ofertă personalizată.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       GALLERY
+  ═══════════════════════════════════════════ -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label">Galerie</span>
+        <h2>Clubul Tău<span class="text-accent"> de Acasă</span></h2>
+      </div>
+      <div class="gallery__grid">
+        <div class="gallery__item reveal" data-img="1">
+          <div class="gallery__placeholder gallery__placeholder--1">
+            <span>🏋️ Zona Weights</span>
+          </div>
+        </div>
+        <div class="gallery__item reveal" data-img="2">
+          <div class="gallery__placeholder gallery__placeholder--2">
+            <span>🥊 Ring & Combat</span>
+          </div>
+        </div>
+        <div class="gallery__item reveal" data-img="3">
+          <div class="gallery__placeholder gallery__placeholder--3">
+            <span>🏃 Cardio Zone</span>
+          </div>
+        </div>
+        <div class="gallery__item reveal" data-img="4">
+          <div class="gallery__placeholder gallery__placeholder--4">
+            <span>🧘 Sala Yoga</span>
+          </div>
+        </div>
+        <div class="gallery__item gallery__item--wide reveal" data-img="5">
+          <div class="gallery__placeholder gallery__placeholder--5">
+            <span>⚽ Teren Sport</span>
+          </div>
+        </div>
+        <div class="gallery__item reveal" data-img="6">
+          <div class="gallery__placeholder gallery__placeholder--6">
+            <span>🎯 Zona Stretching</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       REVIEWS
+  ═══════════════════════════════════════════ -->
+  <section class="reviews section section--dark" id="reviews">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label">Testimoniale</span>
+        <h2>Ce Spun<span class="text-accent"> Membrii Noștri</span></h2>
+      </div>
+      <div class="reviews__carousel" id="reviewsCarousel">
+        <div class="reviews__track" id="reviewsTrack">
+          <div class="review-card">
+            <div class="review-card__stars">★★★★★</div>
+            <p>"Coaching excepțional și rezultate reale. Am slăbit 12 kg în 3 luni și mă simt fantastic. Antrenorii sunt profesioniști și mereu motivanți."</p>
+            <div class="review-card__author">
+              <div class="review-card__avatar">AM</div>
+              <div>
+                <strong>Alexandru M.</strong>
+                <small>Membru de 8 luni</small>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="review-card__stars">★★★★★</div>
+            <p>"Cel mai bun mediu de antrenament din București. Atmosfera e unică, echipamentele sunt top și comunitatea e superbă."</p>
+            <div class="review-card__author">
+              <div class="review-card__avatar">IP</div>
+              <div>
+                <strong>Ioana P.</strong>
+                <small>Membră de 1 an</small>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="review-card__stars">★★★★★</div>
+            <p>"Staff profesionist și extrem de motivant. M-au ajutat să îmi depășesc limitele și să ajung la performanțe la care nu visam."</p>
+            <div class="review-card__author">
+              <div class="review-card__avatar">MR</div>
+              <div>
+                <strong>Mihai R.</strong>
+                <small>Membru de 6 luni</small>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="review-card__stars">★★★★★</div>
+            <p>"Recomand cu caldura! Programele sunt bine structurate, prețurile sunt corecte și rezultatele au venit rapid. Cel mai bun club din zonă."</p>
+            <div class="review-card__author">
+              <div class="review-card__avatar">LC</div>
+              <div>
+                <strong>Laura C.</strong>
+                <small>Membră de 2 ani</small>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="review-card__stars">★★★★★</div>
+            <p>"Am venit la sesiunea de probă și am rămas. Antrenorul personal m-a ajutat să îmi construiesc un program perfect. Rezultatele au apărut în 6 săptămâni."</p>
+            <div class="review-card__author">
+              <div class="review-card__avatar">DR</div>
+              <div>
+                <strong>Dan R.</strong>
+                <small>Membru de 5 luni</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__controls">
+          <button class="reviews__btn" id="reviewsPrev" aria-label="Anterior">‹</button>
+          <div class="reviews__dots" id="reviewsDots"></div>
+          <button class="reviews__btn" id="reviewsNext" aria-label="Următor">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       BOOKING FORM
+  ═══════════════════════════════════════════ -->
+  <section class="booking section" id="booking">
+    <div class="container">
+      <div class="booking__grid">
+        <div class="booking__content reveal">
+          <span class="label">Rezervare</span>
+          <h2>Rezervă Sesiunea<br/><span class="text-accent">de Probă Gratuită</span></h2>
+          <p>Completează formularul și te contactăm în maxim 2 ore pentru confirmare.</p>
+          <div class="booking__guarantees">
+            <div class="guarantee">
+              <span>✓</span>
+              <small>Fără card sau plată în avans</small>
+            </div>
+            <div class="guarantee">
+              <span>✓</span>
+              <small>Răspuns în 2 ore</small>
+            </div>
+            <div class="guarantee">
+              <span>✓</span>
+              <small>Anulare gratuită oricând</small>
+            </div>
+          </div>
+        </div>
+        <div class="booking__form-wrapper reveal">
+          <form class="booking__form" id="bookingForm" novalidate>
+            <div class="form-group">
+              <label for="name">Numele tău *</label>
+              <input type="text" id="name" name="name" placeholder="Ex: Alexandru Popescu" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Număr de telefon *</label>
+              <input type="tel" id="phone" name="phone" placeholder="07XX XXX XXX" required />
+            </div>
+            <div class="form-group">
+              <label for="goal">Obiectivul tău</label>
+              <select id="goal" name="goal">
+                <option value="">Selectează obiectivul</option>
+                <option>Slăbire și tonifiere</option>
+                <option>Creștere masă musculară</option>
+                <option>Îmbunătățire condiție fizică</option>
+                <option>Sport de performanță</option>
+                <option>Recuperare & mobilitate</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="preferred-time">Ziua preferată</label>
+              <select id="preferred-time" name="preferred-time">
+                <option value="">Selectează ziua</option>
+                <option>Luni – Vineri dimineața (07-10)</option>
+                <option>Luni – Vineri seara (18-22)</option>
+                <option>Weekend</option>
+                <option>Orice zi</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn--accent btn--full btn--lg">
+              Rezervă Sesiunea Gratuită →
+            </button>
+            <p class="form-note">Prin trimitere, ești de acord să fii contactat de echipa noastră.</p>
+          </form>
+          <div class="booking__success" id="bookingSuccess" hidden>
+            <div class="success-icon">✓</div>
+            <h3>Rezervare trimisă!</h3>
+            <p>Te contactăm în maxim 2 ore pentru confirmare.</p>
+            <a href="https://wa.me/40700000000?text=Buna!%20Am%20completat%20formularul%20de%20rezervare." class="btn btn--whatsapp btn--lg" target="_blank" rel="noopener">Confirmare rapidă pe WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       LOCATION
+  ═══════════════════════════════════════════ -->
+  <section class="location section section--dark" id="location">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label">Locație</span>
+        <h2>Găsește-ne<span class="text-accent"> Ușor</span></h2>
+      </div>
+      <div class="location__grid">
+        <div class="location__info reveal">
+          <div class="location__item">
+            <div class="location__icon">📍</div>
+            <div>
+              <strong>Adresă</strong>
+              <p>București, România<br/>(Vezi pe Google Maps)</p>
+            </div>
+          </div>
+          <div class="location__item">
+            <div class="location__icon">🕐</div>
+            <div>
+              <strong>Program</strong>
+              <p>Luni – Vineri: 07:00 – 22:00<br/>Sâmbătă – Duminică: 09:00 – 18:00</p>
+            </div>
+          </div>
+          <div class="location__item">
+            <div class="location__icon">📞</div>
+            <div>
+              <strong>Contact</strong>
+              <p><a href="tel:+40700000000">0700 000 000</a></p>
+            </div>
+          </div>
+          <div class="location__ctas">
+            <a href="https://maps.app.goo.gl/SUFpLaxVMdRKgr9G6" class="btn btn--accent" target="_blank" rel="noopener">
+              📍 Deschide în Maps
+            </a>
+            <a href="https://wa.me/40700000000" class="btn btn--whatsapp" target="_blank" rel="noopener">
+              WhatsApp
+            </a>
+          </div>
+        </div>
+        <div class="location__map reveal">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8441388!2d26.1025!3d44.4268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDTCsDI1JzM2LjUiTiAyNsKwMDYnMDkuMCJF!5e0!3m2!1sro!2sro!4v1234567890"
+            width="100%" height="400" style="border:0;" allowfullscreen=""
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Club Sportiv Extreme București">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#hero" class="nav__logo"><span class="logo-x">X</span>TREME</a>
+          <p>Club Sportiv Extreme – Unde performanța devine obicei.</p>
+          <div class="footer__social">
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="https://wa.me/40700000000" aria-label="WhatsApp">WA</a>
+          </div>
+        </div>
+        <div class="footer__links">
+          <h4>Navigare</h4>
+          <a href="#services">Servicii</a>
+          <a href="#pricing">Prețuri</a>
+          <a href="#gallery">Galerie</a>
+          <a href="#reviews">Recenzii</a>
+          <a href="#location">Locație</a>
+          <a href="#booking">Rezervare</a>
+        </div>
+        <div class="footer__contact">
+          <h4>Contact Rapid</h4>
+          <a href="tel:+40700000000">📞 0700 000 000</a>
+          <a href="https://wa.me/40700000000" target="_blank" rel="noopener">💬 WhatsApp</a>
+          <a href="https://maps.app.goo.gl/SUFpLaxVMdRKgr9G6" target="_blank" rel="noopener">📍 Google Maps</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2024 Club Sportiv Extreme București. Toate drepturile rezervate.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════
+       STICKY MOBILE ACTION BAR
+  ═══════════════════════════════════════════ -->
+  <div class="mobile-bar" id="mobileBar">
+    <a href="tel:+40700000000" class="mobile-bar__btn mobile-bar__btn--call">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+      Sună
+    </a>
+    <a href="https://wa.me/40700000000?text=Salut!%20Vreau%20sa%20aflu%20mai%20multe%20despre%20club." class="mobile-bar__btn mobile-bar__btn--wa" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp
+    </a>
+    <a href="#booking" class="mobile-bar__btn mobile-bar__btn--book">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11z"/></svg>
+      Rezervă
+    </a>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       AI CHATBOX
+  ═══════════════════════════════════════════ -->
+  <div class="chat-widget" id="chatWidget">
+    <button class="chat-toggle" id="chatToggle" aria-label="Deschide chat">
+      <svg class="chat-toggle__icon chat-toggle__icon--open" viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
+      <svg class="chat-toggle__icon chat-toggle__icon--close" viewBox="0 0 24 24" fill="currentColor"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+      <span class="chat-toggle__badge">1</span>
+    </button>
+    <div class="chat-box" id="chatBox">
+      <div class="chat-box__header">
+        <div class="chat-box__avatar">⚡</div>
+        <div>
+          <strong>Asistent Extreme</strong>
+          <small>Online acum</small>
+        </div>
+        <button class="chat-box__close" id="chatClose" aria-label="Închide">✕</button>
+      </div>
+      <div class="chat-box__messages" id="chatMessages">
+        <div class="chat-msg chat-msg--bot">
+          <p>Salut! 👋 Sunt asistentul Club Sportiv Extreme.</p>
+          <p>Cum te pot ajuta astăzi?</p>
+        </div>
+        <div class="chat-quickreplies" id="quickReplies">
+          <button class="quick-reply" data-q="prices">💰 Prețuri</button>
+          <button class="quick-reply" data-q="trial">🎯 Probă gratuită</button>
+          <button class="quick-reply" data-q="schedule">📅 Program</button>
+          <button class="quick-reply" data-q="location">📍 Locație</button>
+          <button class="quick-reply" data-q="services">💪 Servicii</button>
+        </div>
+      </div>
+      <div class="chat-box__input">
+        <input type="text" id="chatInput" placeholder="Scrie un mesaj..." autocomplete="off" />
+        <button id="chatSend" aria-label="Trimite">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
